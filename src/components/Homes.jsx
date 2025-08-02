@@ -170,15 +170,14 @@ export default function Homes() {
                 </span>
               </a>
 
-              <a
-                href="https://drive.google.com/file/d/1XdUwYoXJ2O54WTAvtym6nByz6TphqW6P/view?usp=sharing"
-                rel="noreferrer"
-              >
-                <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg hover:scale-105 transition-all duration-200 flex items-center space-x-2">
-                  <Download className="w-4 h-4" />
-                  <span>Download CV</span>
-                </button>
-              </a>
+              <button className="group border border-gray-600 text-white px-8 py-4 rounded-lg font-medium hover:bg-white hover:text-gray-900 transition-all duration-300 hover:scale-105">
+                <span className="flex items-center justify-center space-x-2">
+                  <Download className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
+                  <a href="https://drive.google.com/file/d/1XdUwYoXJ2O54WTAvtym6nByz6TphqW6P/view?usp=sharing">
+                    Download CV
+                  </a>
+                </span>
+              </button>
             </div>
 
             {/* Social Links */}
