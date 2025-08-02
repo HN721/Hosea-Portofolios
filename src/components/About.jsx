@@ -133,9 +133,7 @@ export default function About() {
 
             <div className="flex items-center space-x-4 mt-8">
               <a
-                href="/files/cv.pdf"
-                download="MyCV.pdf"
-                target="_blank"
+                href="https://drive.google.com/file/d/1XdUwYoXJ2O54WTAvtym6nByz6TphqW6P/view?usp=sharing"
                 rel="noreferrer"
               >
                 <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg hover:scale-105 transition-all duration-200 flex items-center space-x-2">
