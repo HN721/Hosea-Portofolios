@@ -34,8 +34,7 @@ export default function About() {
 
   const stats = [
     { icon: Code2, label: "Projects Completed", value: "5+" },
-    { icon: Coffee, label: "Cups of Coffee", value: "1000+" },
-    { icon: Users, label: "Happy Clients", value: "25+" },
+    { icon: Coffee, label: "Cups of Coffee", value: "50+" },
     { icon: Award, label: "Years Experience", value: "1" },
   ];
 
@@ -133,10 +132,17 @@ export default function About() {
             </div>
 
             <div className="flex items-center space-x-4 mt-8">
-              <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg hover:scale-105 transition-all duration-200 flex items-center space-x-2">
-                <Download className="w-4 h-4" />
-                <span>Download CV</span>
-              </button>
+              <a
+                href="/files/cv.pdf"
+                download="MyCV.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg hover:scale-105 transition-all duration-200 flex items-center space-x-2">
+                  <Download className="w-4 h-4" />
+                  <span>Download CV</span>
+                </button>
+              </a>
 
               <div className="flex items-center space-x-2 text-gray-600">
                 <span>Made with</span>
